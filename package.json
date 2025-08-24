@@ -1,6 +1,5 @@
 {
-  "homepage": "https://asifraza1415.github.io/Weather-APP",
-
+  "homepage": "https://github.com/ASIFRAZA1415/Weather-APP",
   "name": "mini-project",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +10,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -29,6 +31,7 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
+    "gh-pages": "^6.3.0",
     "globals": "^15.11.0",
     "vite": "^5.4.10"
   }
